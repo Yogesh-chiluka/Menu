@@ -1,0 +1,95 @@
+body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: 	#E2F9FF;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+  align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: 	#E2F9FF;
+    margin: 0;
+    width: 1150px;
+}
+
+div>h2{
+  margin-top: 80px;
+  letter-spacing: 3.12px;
+  padding: 0px;
+  margin-bottom: 6.41px;
+ 
+}
+
+.underline{
+  height: 2px;
+  width: 50px;
+  background-color: goldenrod;
+  margin: auto;
+}
+
+button{
+  margin: 25px 5px;
+  padding: 3.12px 6.41px;
+  border-radius: 8PX;
+  background-color: #E2F9FF;
+  color:goldenrod;
+  border-style: solid;
+  border: 1px solid goldenrod;
+}
+
+button:hover{
+  background-color: goldenrod;
+  color: white;
+}
+
+button::selection{
+  
+}
+.section-centre{
+  display:grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  
+}
+.menu-item{
+  margin-top: 50px;
+  letter-spacing: 3.12px;
+  max-width:610px;
+  height: 50;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.photo{
+  border: 3px solid goldenrod;
+  border-radius: 4px;
+  width: 200px;
+}
+.item-info{
+  position: relative;
+  margin: 0px 20px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+header>h4{
+  margin: 0px 0px 5px;
+}
+.price{
+  color: goldenrod;
+  margin: 0px 0px 5px;
+}
+.item-info>p{
+ letter-spacing: normal;
+ overflow: hidden;
+}
